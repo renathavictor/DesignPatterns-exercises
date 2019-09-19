@@ -1,0 +1,13 @@
+package model;
+
+public class Pontuacao {
+
+	private int pontuacaoTotal;
+	
+	
+	
+	public void vencedor(Inimigo v) {
+		System.out.println("O vencedor foi: " + v + ". Ganhou " + v.getPontosVitoria() + " pontos.");
+	}
+	
+}
