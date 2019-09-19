@@ -1,0 +1,21 @@
+package factory.model;
+
+public class Masculino extends Usuario {
+
+	public Masculino() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Masculino(String nome) {
+		super(nome);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public String saudacao() {
+		return "Bem-vindo Sr. " + super.getNome();
+	}
+
+
+	
+}

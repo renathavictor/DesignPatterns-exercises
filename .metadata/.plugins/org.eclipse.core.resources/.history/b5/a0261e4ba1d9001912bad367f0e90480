@@ -1,0 +1,11 @@
+package model;
+
+public class Inimigo {
+
+	private int hp;
+	private int inteligencia;
+	private int forca;
+	private int estrategia;
+	
+	
+}

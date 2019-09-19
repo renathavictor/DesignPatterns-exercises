@@ -1,0 +1,9 @@
+package model;
+
+public class Espiao extends Inimigo {
+
+	private int hp = 200;
+	private int inteligencia = 10;
+	private int forca = 7;
+	private int estrategia = 10;
+}

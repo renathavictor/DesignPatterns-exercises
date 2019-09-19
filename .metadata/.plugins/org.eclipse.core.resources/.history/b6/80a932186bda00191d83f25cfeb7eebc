@@ -1,0 +1,22 @@
+package factory.model;
+
+public class Masculino extends Usuario {
+	
+	private String genero;
+
+	public Masculino() {
+		super();
+	}
+
+	public Masculino(String nome, genero) {
+		super(nome);
+		this.genero = genero;
+	}
+	
+	public String saudacao() {
+		return "Bem-vindo Sr. " + super.getNome();
+	}
+
+
+	
+}

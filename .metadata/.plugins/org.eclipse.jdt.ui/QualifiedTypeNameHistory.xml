@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="model.Jogo2D"/>
+<fullyQualifiedTypeName name="model.Jogo3D"/>
+<fullyQualifiedTypeName name="compra.Funcionario"/>
+<fullyQualifiedTypeName name="compra.Cliente"/>
+<fullyQualifiedTypeName name="compra.Compra"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="model.Fita"/>
+<fullyQualifiedTypeName name="model.Cliente"/>
+<fullyQualifiedTypeName name="model.Inimigo"/>
+<fullyQualifiedTypeName name="model.Espiao"/>
+</qualifiedTypeNameHistroy>
