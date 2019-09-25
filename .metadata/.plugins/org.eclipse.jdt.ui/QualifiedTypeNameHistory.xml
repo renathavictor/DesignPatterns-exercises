@@ -11,4 +11,5 @@
 <fullyQualifiedTypeName name="model.Cliente"/>
 <fullyQualifiedTypeName name="model.Inimigo"/>
 <fullyQualifiedTypeName name="model.Espiao"/>
+<fullyQualifiedTypeName name="controller.PontuacaoController"/>
 </qualifiedTypeNameHistroy>
