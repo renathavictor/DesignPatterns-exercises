@@ -1,9 +1,0 @@
-package model;
-
-public class Guerrilheiro extends Inimigo {
-
-	private int hp = 100;
-	private int inteligencia = 5;
-	private int forca = 8;
-	private int estrategia = 8;
-}

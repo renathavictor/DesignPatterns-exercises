@@ -12,4 +12,16 @@
 <fullyQualifiedTypeName name="model.Inimigo"/>
 <fullyQualifiedTypeName name="model.Espiao"/>
 <fullyQualifiedTypeName name="controller.PontuacaoController"/>
+<fullyQualifiedTypeName name="model.Maze"/>
+<fullyQualifiedTypeName name="model.Wall"/>
+<fullyQualifiedTypeName name="model.EnchantedWall"/>
+<fullyQualifiedTypeName name="model.EnchantedRoom"/>
+<fullyQualifiedTypeName name="model.AbstractMazeFactory"/>
+<fullyQualifiedTypeName name="model.EnchantedDoor"/>
+<fullyQualifiedTypeName name="javax.xml.crypto.Data"/>
+<fullyQualifiedTypeName name="modelo.AppEscritorio"/>
+<fullyQualifiedTypeName name="modelo.EditorTexto"/>
+<fullyQualifiedTypeName name="modelo.EditorPlanilha"/>
+<fullyQualifiedTypeName name="modelo.EditorApresentacao"/>
+<fullyQualifiedTypeName name="modelo.AppEscritorioFabrica"/>
 </qualifiedTypeNameHistroy>

@@ -1,9 +1,0 @@
-package model;
-
-public class Exercito extends Inimigo {
-
-	private int hp = 50;
-	private int inteligencia = 2;
-	private int forca = 7;
-	private int estrategia = 10;
-}
