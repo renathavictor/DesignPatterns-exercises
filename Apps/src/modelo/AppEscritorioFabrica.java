@@ -1,8 +1,6 @@
 package modelo;
 
-public abstract class AppEscritorioFabrica {
-
-	public abstract AppEscritorio criarApp();
+public class AppEscritorioFabrica {
 	
 	public AppEscritorio getAppEscritorio(String nome) {
 		switch (nome) {

@@ -4,17 +4,14 @@ import javax.xml.crypto.Data;
 
 public abstract class AppEscritorio {
 	
-	private String nome;
-	private String path;
-	private Data data;
-	private String proprietário;
-	private String email;
+	protected String nome;
+	protected String path;
+	protected Data data;
+	protected String proprietário;
+	protected String email;
 	private boolean copia;
-	
-	public abstract String exibirInfo();
-	
+		
 	public AppEscritorio() { }
-
 
 	public AppEscritorio(String nome, String path, Data data, String proprietário, String email, boolean copia) {
 		this.nome = nome;
@@ -81,6 +78,5 @@ public abstract class AppEscritorio {
 	}
 
 	public abstract AppEscritorio clonar();
-
 	
 }
