@@ -15,8 +15,10 @@ public class EditorTexto extends AppEscritorio {
 	}
 	
 	@Override
-	public AppEscritorio clonar() {
-		return new EditorTexto(this);
+	public AppEscritorio clonar() throws Exception {
+		if (this.isCopia())
+			return new EditorTexto(this);
+		throw new Exception("Arquivo não pode ser copiado");
 	}
 
 }

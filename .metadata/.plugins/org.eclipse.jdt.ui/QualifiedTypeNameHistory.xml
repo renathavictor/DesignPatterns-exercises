@@ -19,9 +19,13 @@
 <fullyQualifiedTypeName name="model.AbstractMazeFactory"/>
 <fullyQualifiedTypeName name="model.EnchantedDoor"/>
 <fullyQualifiedTypeName name="javax.xml.crypto.Data"/>
-<fullyQualifiedTypeName name="modelo.AppEscritorio"/>
-<fullyQualifiedTypeName name="modelo.EditorTexto"/>
-<fullyQualifiedTypeName name="modelo.EditorPlanilha"/>
+<fullyQualifiedTypeName name="modelo.EditorTextoFabrica"/>
+<fullyQualifiedTypeName name="modelo.EditorPlanilhaFabrica"/>
+<fullyQualifiedTypeName name="modelo.EditorApresentacaoFabrica"/>
 <fullyQualifiedTypeName name="modelo.EditorApresentacao"/>
+<fullyQualifiedTypeName name="modelo.EditorPlanilha"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="modelo.EditorTexto"/>
 <fullyQualifiedTypeName name="modelo.AppEscritorioFabrica"/>
+<fullyQualifiedTypeName name="modelo.AppEscritorio"/>
 </qualifiedTypeNameHistroy>

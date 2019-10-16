@@ -12,6 +12,11 @@ public abstract class AppEscritorio {
 	private boolean copia;
 		
 	public AppEscritorio() { }
+	
+	public AppEscritorio(String nome, String path) {
+		this.nome = nome;
+		this.path = path;
+	}
 
 	public AppEscritorio(String nome, String path, Data data, String proprietário, String email, boolean copia) {
 		this.nome = nome;
@@ -21,8 +26,7 @@ public abstract class AppEscritorio {
 		this.email = email;
 		this.copia = copia;
 	}
-
-
+	
 	public String getNome() {
 		return nome;
 	}
@@ -77,6 +81,6 @@ public abstract class AppEscritorio {
 				+ ", email=" + email + ", copia=" + copia + "]";
 	}
 
-	public abstract AppEscritorio clonar();
+	public abstract AppEscritorio clonar() throws Exception;
 	
 }

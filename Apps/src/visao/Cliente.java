@@ -15,13 +15,18 @@ public class Cliente {
 	texto.setPath("/caminho/");
 	texto.setCopia(true);
 	
-	AppEscritorio texto2 = texto.clonar();
-	
-	texto2.setEmail("teste@email.com");
 	System.out.println(texto);
-	System.out.println(texto2);
 	
-		
+	AppEscritorio texto2;
+	
+	try {
+		texto2 = texto.clonar();
+		texto2.setEmail("teste@email.com");
+		System.out.println(texto2);
+	
+	} catch (Exception e) {
+		System.out.println(e);
+	}
 	
 
 	}

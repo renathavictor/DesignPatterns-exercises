@@ -15,8 +15,12 @@ public class EditorPlanilha extends AppEscritorio {
 	}
 
 	@Override
-	public AppEscritorio clonar() {
-		return new EditorPlanilha(this);
+	public AppEscritorio clonar() throws Exception {
+		if (this.isCopia())
+			return new EditorPlanilha(this);
+		throw new Exception("Arquivo não pode ser copiado");
+
+		//return this.isCopia() ? new EditorPlanilha(this) : new EditorPlanilha();
 	}
 
 }
