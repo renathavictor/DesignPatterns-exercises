@@ -1,7 +1,7 @@
 package modal;
 
 public class Congresso {
-	
+		
 	public Congresso() {}
 	
 	public void totalParticipantes() {}
@@ -9,5 +9,7 @@ public class Congresso {
 	public void totalAssentos() {}
 	
 	public void adicionar(Participante p) {}
+	
+	public void setTotalAssentos(int t) {}
 	
 }

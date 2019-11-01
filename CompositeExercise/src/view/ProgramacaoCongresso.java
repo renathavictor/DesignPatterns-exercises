@@ -10,6 +10,7 @@ public class ProgramacaoCongresso {
 	public static void main(String[] args) {
 		
 		CongressoComposite congresso = new CongressoComposite();
+		congresso.setTotalAssentos(10);
 		
 		Participante p1 = new Individuo("participante 1");	
 		Participante p2 = new Individuo("participante 2");	
@@ -24,6 +25,9 @@ public class ProgramacaoCongresso {
 		congresso.adicionar(p3);
 		congresso.adicionar(p4);
 		
+		congresso.totalParticipantes();
 		congresso.totalAssentos();
+		
+		
 	}
 }
